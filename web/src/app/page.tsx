@@ -1,7 +1,18 @@
 export default function Home() {
   return (
-    <div className="text-zync-50 h-screen bg-zinc-950 p-6">
-      <h1 className="text-4xl font-bold text-white">Sua cápsula do tempo</h1>
-    </div>
+    <main className="grid min-h-screen grid-cols-2">
+      <div></div>
+      <div className="flex flex-col p-16">
+        <div className="flex flex-1 items-center justify-center">
+          <p className="w-[360px] text-center leading-relaxed">
+            Você ainda não registrou nenhuma lembrança, começe a{' '}
+            <a href="" className="underline hover:text-gray-50">
+              criar agora
+            </a>
+            !
+          </p>
+        </div>
+      </div>
+    </main>
   )
 }
