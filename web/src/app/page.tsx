@@ -14,8 +14,8 @@ export default function Home() {
             <User className="h-5 w-5 text-gray-500" />
           </div>
           <p className="max-w-[140px] text-sm leading-snug">
-            <span className="underline">Crie sua conta</span> e salve suas
-            memórias!
+            <span className="underline">Create an account</span> and save your
+            memories!
           </p>
         </a>
         <div className="absolute left-40 top-40">
@@ -27,13 +27,14 @@ export default function Home() {
             Colect your moments of your journey and share it!
           </p>
         </div>
+        <a href="">REGISTER A MEMORIE</a>
       </div>
       <div className="flex flex-col bg-[url(../assets/bg-stars.svg)] bg-cover p-16">
         <div className="flex flex-1 items-center justify-center">
           <p className="w-[360px] text-center leading-relaxed">
-            Você ainda não registrou nenhuma lembrança, começe a{' '}
+            You have not registered any memories yet, start{' '}
             <a href="" className="underline hover:text-gray-50">
-              criar agora
+              creating now
             </a>
             !
           </p>
