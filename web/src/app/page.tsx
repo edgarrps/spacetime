@@ -27,7 +27,12 @@ export default function Home() {
             Colect your moments of your journey and share it!
           </p>
         </div>
-        <a href="">REGISTER A MEMORIE</a>
+        <a
+          className="text-small inline-block rounded-full bg-cyan-300 px-5 py-3 text-center font-alt leading-none text-black duration-200 hover:bg-emerald-500"
+          href=""
+        >
+          REGISTER A MEMORIE
+        </a>
       </div>
       <div className="flex flex-col bg-[url(../assets/bg-stars.svg)] bg-cover p-16">
         <div className="flex flex-1 items-center justify-center">
