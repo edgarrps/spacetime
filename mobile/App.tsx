@@ -22,7 +22,11 @@ export default function App() {
     return null
   }
   return (
-    <ImageBackground source={blurBg} className="relative flex-1 bg-gray-900">
+    <ImageBackground
+      source={blurBg}
+      className="relative flex-1 bg-gray-900"
+      imageStyle={{ position: 'absolute', left: '-100%' }}
+    >
       <Text>Test</Text>
       <StatusBar style="light" translucent />
     </ImageBackground>
