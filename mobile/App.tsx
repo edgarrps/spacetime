@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar'
-import { ImageBackground, Text, View } from 'react-native'
+import { ImageBackground, Text } from 'react-native'
 
 import {
   useFonts,
